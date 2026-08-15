@@ -1,6 +1,6 @@
 # Substring — Leitura de Layout de Arquivo
 
-[← Voltar a Bulk Insert](https://github.com/joycequoos/BulkInsert/blob/main/README.md)
+[← Voltar a Engenharia de Dados](https://github.com/joycequoos/Data_Enginer/blob/main/README.md)
 
 Exemplo prático de leitura de um arquivo de layout fixo (posicional, sem delimitador) usando `SUBSTRING` no SQL Server. A ideia é: cada linha do arquivo chega como uma única string, e a posição de cada caractere já indica a qual campo ele pertence — por isso não é possível usar `BULK INSERT` com `FIELDTERMINATOR`, sendo necessário "fatiar" a linha manualmente.
 
